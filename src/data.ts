@@ -3,7 +3,7 @@ import { Drawable } from "./gfx";
 
 
 
-class Point implements Drawable {
+export class Point implements Drawable {
     x: number;
     y: number;
     label: number; // the class of the point.
